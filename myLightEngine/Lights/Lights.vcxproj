@@ -46,9 +46,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <ExecutablePath>C:\Users\Hanjw\Desktop\v\assimp_version\myLightEngine\Bin;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>C:\Users\Hanjw\Desktop\v\assimp_version\myLightEngine\Include;C:\Users\Hanjw\Desktop\v\assimp_version\myLightEngine\Include\assimp;C:\Users\Hanjw\Desktop\v\assimp_version\myLightEngine\Include\ImageMagick-6;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Hanjw\Desktop\v\assimp_version\myLightEngine\Lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Include;E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Include\assimp;E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Include\ImageMagick-6;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -106,6 +106,7 @@
     <ClInclude Include="Math3d.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Pipeline.h" />
+    <ClInclude Include="ShadowMap_FBO.h" />
     <ClInclude Include="Technique.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Types_han.h" />
