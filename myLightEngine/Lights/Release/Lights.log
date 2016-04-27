@@ -1,7 +1,10 @@
-﻿生成启动时间为 2016/4/25 20:12:21。
-     1>项目“E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Lights\Lights.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2016/4/27 21:26:59。
+     1>项目“C:\Users\Hanjw\Documents\GitHub\OmnidirectionalShadowMapping\myLightEngine\Lights\Lights.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\VS2013\VC\bin\CL.exe /c /IE:\boost_1_57_0 /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         E:\VS2013\VC\bin\CL.exe /c /IE:\boost_1_57_0 /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Glut_backend.cpp LightTechnique.cpp main.cpp Math3d.cpp Mesh.cpp Pipeline.cpp Technique.cpp Texture.cpp Util_han.cpp
+         Camera.cpp
+         Glut_backend.cpp
+         LightTechnique.cpp
          main.cpp
      1>E:\VS2013\VC\include\glut.h(134): warning C4005: “GLUT_RGB”: 宏重定义
                  e:\git\workspace\omnidirectionalshadowmapping\mylightengine\include\gl\freeglut_std.h(164) : 参见“GLUT_RGB”的前一个定义
@@ -567,8 +570,15 @@
                  e:\git\workspace\omnidirectionalshadowmapping\mylightengine\include\gl\freeglut_std.h(545) : 参见“glutLeaveGameMode”的前一个定义
      1>E:\VS2013\VC\include\glut.h(578): warning C4273: “glutGameModeGet”: dll 链接不一致
                  e:\git\workspace\omnidirectionalshadowmapping\mylightengine\include\gl\freeglut_std.h(546) : 参见“glutGameModeGet”的前一个定义
+         Math3d.cpp
+         Mesh.cpp
+     1>Mesh.cpp(193): warning C4800: “GLuint”: 将值强制为布尔值“true”或“false”(性能警告)
+         Pipeline.cpp
+         Technique.cpp
+         Texture.cpp
+         Util_han.cpp
        Link:
-         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Release\Lights.exe" /INCREMENTAL:NO /NOLOGO glew32d.lib assimp.lib freeglut.lib CORE_DB_Magick++_.lib opencv_ocl248d.lib opencv_stitching248d.lib opencv_videostab248d.lib opencv_superres248d.lib opencv_nonfree248d.lib opencv_gpu248d.lib opencv_legacy248d.lib opencv_contrib248d.lib opencv_calib3d248d.lib opencv_ts248d.lib opencv_features2d248d.lib opencv_objdetect248d.lib opencv_highgui248d.lib opencv_video248d.lib opencv_photo248d.lib opencv_imgproc248d.lib opencv_ml248d.lib opencv_flann248d.lib opencv_core248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Release\Lights.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Release\Lights.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hanjw\Documents\GitHub\OmnidirectionalShadowMapping\myLightEngine\Release\Lights.exe" /INCREMENTAL:NO /NOLOGO glew32d.lib assimp.lib freeglut.lib CORE_DB_Magick++_.lib opencv_ocl248d.lib opencv_stitching248d.lib opencv_videostab248d.lib opencv_superres248d.lib opencv_nonfree248d.lib opencv_gpu248d.lib opencv_legacy248d.lib opencv_contrib248d.lib opencv_calib3d248d.lib opencv_ts248d.lib opencv_features2d248d.lib opencv_objdetect248d.lib opencv_highgui248d.lib opencv_video248d.lib opencv_photo248d.lib opencv_imgproc248d.lib opencv_ml248d.lib opencv_flann248d.lib opencv_core248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hanjw\Documents\GitHub\OmnidirectionalShadowMapping\myLightEngine\Release\Lights.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hanjw\Documents\GitHub\OmnidirectionalShadowMapping\myLightEngine\Release\Lights.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
          Release\Glut_backend.obj
          Release\LightTechnique.obj
          Release\main.obj
@@ -580,9 +590,9 @@
          Release\Util_han.obj
          正在生成代码
          已完成代码的生成
-         Lights.vcxproj -> E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Release\Lights.exe
-     1>已完成生成项目“E:\git\workspace\OmnidirectionalShadowMapping\myLightEngine\Lights\Lights.vcxproj”(Build 个目标)的操作。
+         Lights.vcxproj -> C:\Users\Hanjw\Documents\GitHub\OmnidirectionalShadowMapping\myLightEngine\Release\Lights.exe
+     1>已完成生成项目“C:\Users\Hanjw\Documents\GitHub\OmnidirectionalShadowMapping\myLightEngine\Lights\Lights.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.51
+已用时间 00:00:08.64
